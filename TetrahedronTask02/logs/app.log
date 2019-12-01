@@ -1,0 +1,20 @@
+25.11.2019 20:48:14 [main] ERROR com.epam.jwd.tetrahedron.Main - Don't created a tetrahedron.
+25.11.2019 20:56:49 [main] INFO  com.epam.jwd.tetrahedron.Main - com.epam.jwd.tetrahedron.bean.Tetrahedron@386c2685
+25.11.2019 20:57:55 [main] INFO  com.epam.jwd.tetrahedron.Main - TetrahedronCoordinate{point1=Point3D{x=1, y=1, z=1}, point2=Point3D{x=-1, y=-1, z=1}, point3=Point3D{x=-1, y=1, z=-1}, point4=Point3D{x=1, y=-1, z=-1}}
+26.11.2019 15:53:53 [main] INFO  com.epam.jwd.tetrahedron.Main - com.epam.jwd.tetrahedron.bean.TetrahedronProperties@e9dbe6de
+26.11.2019 15:54:49 [main] INFO  com.epam.jwd.tetrahedron.Main - TetrahedronProperties{side=2.8284271247461903, square=13.856406460551021, volume=2.6666666666666674}
+26.11.2019 16:09:42 [main] INFO  com.epam.jwd.tetrahedron.Main - TetrahedronProperties{side=2.8284271247461903, square=13.856406460551021, volume=2.6666666666666674}
+01.12.2019 12:20:33 [main] INFO  com.epam.jwd.tetrahedron.Main - Tetrahedron{point1=Point3D{x=1, y=1, z=1}, point2=Point3D{x=-1, y=-1, z=1}, point3=Point3D{x=-1, y=1, z=-1}, point4=Point3D{x=1, y=-1, z=-1}}
+01.12.2019 14:24:36 [main] INFO  com.epam.jwd.tetrahedron.Main - Tetrahedron{point1=Point3D{x=1, y=1, z=1}, point2=Point3D{x=-1, y=-1, z=1}, point3=Point3D{x=-1, y=1, z=-1}, point4=Point3D{x=1, y=-1, z=-1}}
+01.12.2019 14:25:54 [main] INFO  com.epam.jwd.tetrahedron.Main - Tetrahedron{point1=Point3D{x=1, y=1, z=1}, point2=Point3D{x=-1, y=-1, z=1}, point3=Point3D{x=-1, y=1, z=-1}, point4=Point3D{x=1, y=-1, z=-1}}
+01.12.2019 14:28:41 [main] INFO  com.epam.jwd.tetrahedron.Main - Tetrahedron{point1=Point3D{x=1, y=1, z=1}, point2=Point3D{x=-1, y=-1, z=1}, point3=Point3D{x=-1, y=1, z=-1}, point4=Point3D{x=1, y=-1, z=-1}}
+01.12.2019 15:08:32 [main] INFO  com.epam.jwd.tetrahedron.Main - Tetrahedron{point1=Point3D{x=1, y=1, z=1}, point2=Point3D{x=-1, y=-1, z=1}, point3=Point3D{x=-1, y=1, z=-1}, point4=Point3D{x=1, y=-1, z=-1}}
+01.12.2019 15:10:08 [main] INFO  com.epam.jwd.tetrahedron.Main - Tetrahedron{point1=Point3D{x=1, y=1, z=1}, point2=Point3D{x=-1, y=-1, z=1}, point3=Point3D{x=-1, y=1, z=-1}, point4=Point3D{x=1, y=-1, z=-1}}
+01.12.2019 15:18:53 [main] INFO  com.epam.jwd.tetrahedron.Main - Tetrahedron{point1=Point3D{x=1, y=1, z=1}, point2=Point3D{x=-1, y=-1, z=1}, point3=Point3D{x=-1, y=1, z=-1}, point4=Point3D{x=1, y=-1, z=-1}}
+01.12.2019 15:20:00 [main] INFO  com.epam.jwd.tetrahedron.Main - Tetrahedron{point1=Point3D{x=1, y=1, z=1}, point2=Point3D{x=-1, y=-1, z=1}, point3=Point3D{x=-1, y=1, z=-1}, point4=Point3D{x=1, y=-1, z=-1}}
+01.12.2019 15:22:10 [main] INFO  com.epam.jwd.tetrahedron.Main - Tetrahedron{point1=Point3D{x=1, y=1, z=1}, point2=Point3D{x=-1, y=-1, z=1}, point3=Point3D{x=-1, y=1, z=-1}, point4=Point3D{x=1, y=-1, z=-1}}
+01.12.2019 15:59:26 [main] INFO  com.epam.jwd.tetrahedron.Main - Tetrahedron{point1=Point3D{x=1, y=1, z=1}, point2=Point3D{x=-1, y=-1, z=1}, point3=Point3D{x=-1, y=1, z=-1}, point4=Point3D{x=1, y=-1, z=-1}}
+01.12.2019 16:01:11 [main] INFO  com.epam.jwd.tetrahedron.Main - Tetrahedron{point1=Point3D{x=1, y=1, z=1}, point2=Point3D{x=-1, y=-1, z=1}, point3=Point3D{x=-1, y=1, z=-1}, point4=Point3D{x=1, y=-1, z=-1}}
+01.12.2019 16:02:06 [main] INFO  com.epam.jwd.tetrahedron.Main - Tetrahedron{point1=Point3D{x=1, y=1, z=1}, point2=Point3D{x=-1, y=-1, z=1}, point3=Point3D{x=-1, y=1, z=-1}, point4=Point3D{x=1, y=-1, z=-1}}
+01.12.2019 16:03:50 [main] INFO  com.epam.jwd.tetrahedron.Main - Tetrahedron{point1=Point3D{x=1, y=1, z=1}, point2=Point3D{x=-1, y=-1, z=1}, point3=Point3D{x=-1, y=1, z=-1}, point4=Point3D{x=1, y=-1, z=-1}}
+01.12.2019 16:04:30 [main] INFO  com.epam.jwd.tetrahedron.Main - Tetrahedron{point1=Point3D{x=1, y=1, z=1}, point2=Point3D{x=-1, y=-1, z=1}, point3=Point3D{x=-1, y=1, z=-1}, point4=Point3D{x=1, y=-1, z=-1}}

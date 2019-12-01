@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <File name="logFile" fileName="logs/app.log">
+            <PatternLayout pattern="%d{dd.MM.yyyy HH:mm:ss} [%t] %-5p %c - %m%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name = "logFile2" level ="trace" additivity = "false">
+                <AppenderRef ref="logFile"/>
+        </Logger>
+        <Root level="debug" additivity="false">
+            <AppenderRef ref="logFile" level="info"/>
+        </Root>
+    </Loggers>
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-api</artifactId>
+        <version>2.6.1</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-core</artifactId>
+        <version>2.6.1</version>
+    </dependency>
+</Configuration>
