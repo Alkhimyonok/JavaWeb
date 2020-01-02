@@ -1,0 +1,24 @@
+<candies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.resources/candies"
+         xsi:schemaLocation="http://www.resources/candies  candies.xsd">
+    <candy id="0">
+        <name>Коровка</name>
+        <energy>200</energy>
+        <typeCandy>IRIS</typeCandy>
+        <ingredient>
+            <nameIngredient>Water</nameIngredient>
+            <weight>300</weight>
+        </ingredient>
+        <ingredient>
+            <nameIngredient>Sugar</nameIngredient>
+            <weight>30</weight>
+        </ingredient>
+        <typeChocolate>WHITE</typeChocolate>
+        <value>
+            <protein>3</protein>
+            <fat>10</fat>
+            <carbohydrate>20</carbohydrate>
+        </value>
+        <production>Спартак</production>
+    </candy>
+</candies>

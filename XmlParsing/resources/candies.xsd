@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.resources/candies"
+           elementFormDefault="qualified">
+
+    <xs:element name="candies">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="candy" type="Candy" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="Candy">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="energy" type="xs:int"/>
+            <xs:element name="typeCandy" type="TypeCandy"/>
+            <xs:element name="ingredient" type="Ingredient" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="typeChocolate" type="TypeChocolate"/>
+            <xs:element name="value" type="Value"/>
+            <xs:element name="production" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:int" use="required"/>
+    </xs:complexType>
+
+    <xs:simpleType name="TypeChocolate">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="MILK"/>
+            <xs:enumeration value="DARK"/>
+            <xs:enumeration value="WHITE"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="TypeCandy">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="IRIS"/>
+            <xs:enumeration value="CARAMEL"/>
+            <xs:enumeration value="CHOCOLATE"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="Value">
+        <xs:sequence>
+            <xs:element name="protein" type="xs:int"/>
+            <xs:element name="fat" type="xs:int"/>
+            <xs:element name="carbohydrate" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Ingredient">
+        <xs:sequence>
+            <xs:element name="nameIngredient" type="xs:string"/>
+            <xs:element name="weight" type="xs:int"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
